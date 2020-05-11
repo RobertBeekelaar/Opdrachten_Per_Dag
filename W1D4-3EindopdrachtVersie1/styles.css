@@ -1,0 +1,102 @@
+body{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+.red-background{
+  background-color: rgb(187, 79, 79);
+}
+
+.green-background{
+  background-color: rgb(116, 172, 114);
+}
+
+.blue-background{
+  background-color: rgb(102, 181, 212);
+}
+
+.gray-background{
+  background-color: rgb(134, 147, 153);
+}
+
+.yellow-background{
+  background-color: khaki;
+}
+
+ul {
+  position: fixed;
+  display: none;
+  text-align: left;
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  width: 20%;
+}
+
+
+button{
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24x;
+  margin-bottom: 10px;
+  min-width: 100px;
+  text-align: left;
+  border:2px solid #030303;
+  box-shadow: 1px 4px 7px -3px #000000;
+}
+
+button:active {
+  border:3px solid #030303;
+  box-shadow: 1px 4px 7px -3px #000000;
+}
+
+
+li:hover {
+  color: #000000;
+}
+
+li:hover ul :hover {
+  color: #000000;;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+  display: block;
+}
+
+li {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+li {
+  display:block;
+  padding-right: 20px; 
+  padding-left: 0px; 
+  height: 18px;
+  line-height: 10px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+li:hover {
+  color: #000000;
+  font-weight: 500;
+  padding-left: 6px; 
+}
+
+ul li, li {
+  width: 100%;
+}
+
+.show-menu {
+  display:block;
+  font-size: 34px;
+  padding-left: 0px;
+}
